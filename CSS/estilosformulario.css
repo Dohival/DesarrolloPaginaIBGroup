@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#formulario{
+    background-color: #071e40;
+    padding: 30px;
+    width: 100%;
+}
+.form{
+    width: 50%;
+}
+.form h2{
+    color: white;
+    margin-bottom: 1rem;
+}
+.form p{
+    color: whitesmoke;
+    margin-bottom: 1rem;
+}
+.datos input{
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: none;
+}
+.datos input:focus{
+    outline: none;
+}
+.datos textarea{
+    width: 100%;
+    height: 5rem;
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.datos textarea:focus{
+    outline: none;
+}
+.info-contacto{
+    display: flex;
+    justify-content: space-between;
+}
+.info-contacto input{
+    width: 47.5%;
+}
+.form-boton{
+    width: 100%;
+}
+.form button{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:1024px){
+    .form{
+        width: 75%;
+    }
+    .info-contacto{
+        flex-wrap: wrap;
+    }
+    .info-contacto input{
+        width: 100%
+    }
+    .form-boton{
+        text-align: center;
+    }
+}
