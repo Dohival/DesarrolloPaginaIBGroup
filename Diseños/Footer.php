@@ -14,32 +14,32 @@
                         <h1>Contáctanos</h1>
                         <div class="row">
                             <a href="index.php"><img src="./img/mail_logo.png">
-                                <label>Mail:</label></a>
+                                <label>Mail: cm.outplacement.coaching@corpibgroup.com</label></a>
                         </div>
                         <div class="row">
                             <a href="index.php"><img src="./img/whatsapp logo.png">
-                                <label>Whatsapp:</label></a>
+                                <label>Whatsapp: +51 983 481 263</label></a>
                         </div>
                     </div>
                     <div class="colum3">
                         <h1>¡Síguenos!</h1>
                         <div class="row2">
-                            <a href="https://www.facebook.com/ibgcorpoficial/">
-                                <img src="./img/facebook_logo.png">
+                            <a href="https://www.facebook.com/IBOutplacementOficial/">
+                                <img src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/facebook-gray.svg">
                                 <label>Facebook</label></a>
                         </div>
                         <div class="row2">
-                            <a href="http://www.instagram.com">
+                            <a href="https://www.instagram.com/iboutplacement/">
                                 <img src="./img/instagram_logo.png">
                                 <label>Instagram</label></a>
                         </div>
                         <div class="row2">
-                            <a href="https://www.linkedin.com/company/corporacion-ibgroup/">
+                            <a href="https://www.linkedin.com/company/iboutplacement">
                                 <img src="./img/linkedin logo.png">
                                 <label>LinkedIn</label></a>
                         </div>
                         <div class="row2">
-                            <a href="https://twitter.com/IBGroupConsulto">
+                            <a href="https://twitter.com/ib_outplacement">
                                 <img src="./img/twitter logo.png">
                                 <label>Twitter</label></a>
                         </div>
@@ -47,8 +47,7 @@
                 </div>
                 <div>
                     <div class="pieaño">
-                        <img src="">
-                        <label>© ibgroup 2021</label>
+                           <label>© ibgroup 2021</label>
                     </div>
                 </div>
             </div>
