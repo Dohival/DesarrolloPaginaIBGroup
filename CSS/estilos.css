@@ -41,8 +41,7 @@ header{
 
 footer{
     width: 100%;
-    background: #071e40;
-    color: white;
+    color: #013f62;
     padding-left: 210px;
     padding-right: 210px;
     padding-top: 30px;
@@ -77,7 +76,7 @@ footer{
 }
 .colum1 p{
     font-size: 18px;
-    color: #C7C7C7;
+    color: black;
     margin-top: 20px;
 
 }
@@ -91,7 +90,7 @@ footer{
 }
 .colum2 p{
     font-size: 18px;
-    color: #C7C7C7;
+    color: black;
     margin-top: 20px;
 
 
@@ -106,7 +105,7 @@ footer{
 }
 .colum3 p{
     font-size: 18px;
-    color: #C7C7C7;
+    color: black;
     margin-top: 20px;
 
 }
@@ -122,7 +121,7 @@ footer{
 .row label{
     margin-top: 10px;
     margin-left: 10px;
-    color: #C7C7C7;
+    color: black;
 
 }
 
@@ -148,35 +147,32 @@ padding: 40px;
 .necesidad{
     justify-content: space-between;
     display: flex;
+    margin: 16px 0px;
 
     
 }
 .necesidad img{
-    padding-left: 160px;
-    padding-right: 78px;
     width: 397px;
     height: 397px;
-    padding-bottom: 80px;
-    padding-top: 10px;
+    justify-content: space-between;
 }
 
 .necesidad p{
     font-size: 17px;
-    padding-left: 130px;
-    padding-right: 200px;
+    justify-content: space-between;
+    
 }
 .titulo-cuerpo h1{
     font-size: 24px;
     color: #071e40;
-    padding-left: 250px;
     text-align: left;
+    justify-content: space-between;
 }
 .descripcion p{
     font-size: 17px;
     margin: 16px 0px;
     color: #242424;
-    padding-left: 250px;
-    padding-right: 240px;
+    justify-content: space-between;
 }
 
 .enlace a{
