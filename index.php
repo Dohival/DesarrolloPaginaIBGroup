@@ -5,25 +5,30 @@
         <title></title>
         <link rel="stylesheet" href="./CSS/estilos.css">
         <link rel="stylesheet" href="./CSS/estilosheader.css">
+        <link rel="stylesheet" href="./CSS/estilosfooter.css">
         <meta name="viewport" content="width=device-widht, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
         <link rel="stylesheet" href="./CSS/estilosformulario.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <?php
         include './Diseños/Header.php';
         ?>
+
     </head>
-    <!--  <header>
-          <div class="container-header-all">
-              <div class="logo-header">
-                  <a href="index.php"><img src="img/logoibcorp.png"></a>
-              </div>
-              <div class="menu-header">
-                  <a href="index.php"><label>Planes</label></a>
-                  <a href="index.php"><label>Sobre nosotros</label></a>
-                  <a href="#formulario"><label>Contacto</label></a>
-              </div>
-          </div>
-      </header>-->
+    
     <body>
+         <?php 
+         $myemail = 'nombregmail@cominio.com';
+         $name = $_POST['nombre'];
+         $email = $_POST['email'];
+         $message = $_POST['mensaje'];
+         $
+                  $to = $myemail;
+                  $email_subject = "Nuevo mensaje: $subject";
+                  $email_body = "Haz recibido un nuevo mensaje. \n Nombre: $name \n Correo: $email \n Mensaje: \n $message";
+                  $headers = "From: $email";
+        mail($to, $email_subject, $email_body, $headers);
+        echo "El mensaje se ha enviado correctamente";
+        ?>
         <section class="panel-inicio">
             <article>
                 <p>
@@ -85,77 +90,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="title">Poner titulo</div>
-             <div class="product">
-                 <div class="top-container">
-                     <div class="background" style="background:#242424"></div>
-                     <div class="img-container">
-                         <div src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-virtual-events.png" height="100%" width="100%" class="sc-gsDKAQ jHhPqH">
-                             <img src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-virtual-events.png" alt="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-virtual-events.png">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="bottom-container">
-                     <div class="subtitle">Eventos Virtuales</div>
-                     <div class="description">Nos adecuamos a las necesidades de cada empresa. Sabemos que cada organización tiene su propia cultura y clima laboral. Dinos que necesitas y lo haremos realidad.</div>
-                     <div class="link">
-                         <a target="_blank" rel="noreferrer" font-size="14px" class="sc-ikJyIC clXMFw">Explorar <span role="img" aria-label="arrow-right" class="anticon anticon-arrow-right">
-                                 <svg viewBox="64 64 896 896" focusable="false" data-icon="arrow-right" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-                                 <path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 000-48.4z">
-                                 </path>
-                                 </svg>
-                             </span>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-             <div class="product">
-                 <div class="top-container">
-                     <div class="background" style="background:#C4ADFF"></div>
-                     <div class="img-container">
-                         <div src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-face-to-face.png" height="100%" width="100%" class="sc-gsDKAQ bcQhjv">
-                             <img src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-face-to-face.png" alt="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-face-to-face.png">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="bottom-container">
-                     <div class="subtitle">Eventos Presenciales</div>
-                     <div class="description">Realizamos eventos presenciales de todo tipo. Eventos de integración, integraciones, celebraciones, eventos de todo tipo.</div>
-                     <div class="link">
-                         <a target="_blank" rel="noreferrer" font-size="14px" class="sc-ikJyIC clXMFw">Explorar <span role="img" aria-label="arrow-right" class="anticon anticon-arrow-right">
-                                 <svg viewBox="64 64 896 896" focusable="false" data-icon="arrow-right" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-                                 <path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 000-48.4z">
-                                 </path>
-                                 </svg>
-                             </span>
-                         </a>
-                     </div>
-                 </div>
-             </div>
-             <div class="product">
-                 <div class="top-container">
-                     <div class="background" style="background:#382079">
-                     </div>
-                     <div class="img-container">
-                         <div src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-games.png" height="100%" width="100%" class="sc-gsDKAQ ktBRuF">
-                             <img src="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-games.png" alt="https://storage.googleapis.com/ebombo-events.appspot.com/resources/product-games.png">
-                         </div>
-                     </div>
-                 </div>
-                 <div class="bottom-container">
-                     div class="subtitle">Juegos de integración</div>
-                 <div class="description">Utiliza los juegos de integración creados por ebombo para que tus trabajadores estén super felices. Ya tenemos más de 10 juegos en nuestra cartera de juegos para potenciar el clima laboral.</div>
-                 <div class="link">
-                     <a target="_blank" rel="noreferrer" font-size="14px" class="sc-ikJyIC clXMFw">Explorar <span role="img" aria-label="arrow-right" class="anticon anticon-arrow-right">
-                             <svg viewBox="64 64 896 896" focusable="false" data-icon="arrow-right" width="1em" height="1em" fill="currentColor" aria-hidden="true">
-                             <path d="M869 487.8L491.2 159.9c-2.9-2.5-6.6-3.9-10.5-3.9h-88.5c-7.4 0-10.8 9.2-5.2 14l350.2 304H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h585.1L386.9 854c-5.6 4.9-2.2 14 5.2 14h91.5c1.9 0 3.8-.7 5.2-2L869 536.2a32.07 32.07 0 000-48.4z">
-                             </path>
-                             </svg>
-                         </span>
-                     </a>
-                 </div>
-             </div>-->
-        </section>
+                  </section>
 
         <section class="panel-planes">
             <article>
