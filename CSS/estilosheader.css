@@ -9,11 +9,10 @@ a:link, a:visited, a:active {
     text-decoration:none;
 }
 header{
-    height: 120px;
+    height: 100px;
     width: 100%;
     background: white;
     color: white;
-    padding: 10px;
 }
 .container-header-all{
     display: flex;
@@ -35,10 +34,10 @@ header{
 
 }
 .menu-header label{
-    margin: 0px 15px;
-    font-size: 20px;
+    margin: 0px 16px;
+    font-size: 18px;
     color: #343a40;;
-    font-family: sans-serif;
+    font-family: "Lato", sans-serif;
     cursor: default;
 
 }
