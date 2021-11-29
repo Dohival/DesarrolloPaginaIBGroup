@@ -1,4 +1,4 @@
-<footer>
+
             <div class="conteiner-footer-all">
                 <div class="container-body">
                     <div class="colum1">
@@ -51,4 +51,3 @@
                     </div>
                 </div>
             </div>
-        </footer>
