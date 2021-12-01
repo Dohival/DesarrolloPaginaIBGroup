@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>IBMaximiz</title>
         <link rel="stylesheet" href="./CSS/estilos.css">
         <link rel="stylesheet" href="./CSS/estilosheader.css">
         <link rel="stylesheet" href="./CSS/estilosfooter.css">
+        <link rel="stylesheet" href="./CSS/estilosmenu.css">
         <meta name="viewport" content="width=device-widht, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
         <link rel="stylesheet" href="./CSS/estilosformulario.css">
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -16,9 +17,6 @@
     </head>
     
     <body>
-         <?php 
-         //include './Diseños/email.php';
-        ?>
         <section class="panel-inicio">
             <article>
                 <p>
@@ -122,4 +120,5 @@ include './Diseños/formulario.php';
 <?php
 include './Diseños/Footer.php';
 ?>
+
 </html>

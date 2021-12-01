@@ -26,13 +26,13 @@ header{
     justify-content: space-between;
     position: inherit;
 }
+
 .menu-header{
     display: flex;
     -webkit-box-align: center;
-    height: 100%;
     align-items: center;
-
 }
+
 .menu-header label{
     margin: 0px 16px;
     font-size: 18px;
@@ -41,8 +41,23 @@ header{
     cursor: default;
 
 }
+
+.label-header{
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 .menu-header img{
     height: auto;
     width: 125px;
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px){
+
+.menu-header label{
+    opacity: 0;
+    display: none;
+}
+
 }
