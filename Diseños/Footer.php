@@ -13,11 +13,11 @@
                     <div class="colum2">
                         <h1>Contáctanos</h1>
                         <div class="row">
-                            <a href="index.php"><img src="./img/mail_logo.png">
+                            <a href="mailto:cm.outplacement.coaching@corpibgroup.com"><img src="./img/mail_logo.png">
                                 <label>Mail: cm.outplacement.coaching@corpibgroup.com</label></a>
                         </div>
                         <div class="row">
-                            <a href="index.php"><img src="./img/whatsapp logo.png">
+                            <a href="https://wa.me/51983481263"><img src="./img/whatsapp logo.png">
                                 <label>Whatsapp: +51 983 481 263</label></a>
                         </div>
                     </div>

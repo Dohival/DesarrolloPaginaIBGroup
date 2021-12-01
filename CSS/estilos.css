@@ -3,10 +3,7 @@ body{
 }
 
 .panel-necesidad{
-padding: 40px;
-}
-.titulo{
-    justify-content: space-between;
+    padding: 40px;
 }
 .titulo h1{
     font-size: 34px; 
@@ -16,45 +13,52 @@ padding: 40px;
     color: #071e40;
 }
 .necesidad{
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     margin: 16px 0px;
-
-    
 }
 .necesidad img{
     width: 397px;
     height: 397px;
-    justify-content: space-between;
 }
 
 .necesidad p{
     font-size: 17px;
-    justify-content: space-between;
-    
+}
+.cuerpo{
+    width: 40%;
+    align-self: center;
 }
 .titulo-cuerpo h1{
     font-size: 24px;
     color: #071e40;
     text-align: left;
-    justify-content: space-between;
 }
 .descripcion p{
     font-size: 17px;
     margin: 16px 0px;
     color: #242424;
-    justify-content: space-between;
 }
 
 .enlace a{
-    padding-left: 250px;
-    padding-right: 240px;
     color: blueviolet;
     text-decoration: underline blueviolet;
 }
-
-
-
-
-
-
+@media only screen and (max-width:1024px){
+    .necesidad{
+        display: block;
+    }
+    .img{
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .cuerpo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:540px){
+    .necesidad img{
+        width: 247px;
+        height: 247px;
+    }
+}
