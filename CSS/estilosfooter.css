@@ -61,6 +61,7 @@ footer{
 .colum3{
     max-height: 400px;
     margin-right: 40px;
+    
 
 }
 .colum3 h1{
@@ -72,26 +73,29 @@ footer{
     color: black;
     margin-top: 20px;
     font-family: "Lato", sans-serif;
+    
 }
 
 .row{
     margin-top: 15px;
     display: flex;
+    
 }
 .row img{
     width: 25px;
     height: 25px;
 }
-.row label{
+.row a{
     margin-top: 10px;
-    margin-left: 10px;
+    
     color: black;
-    font-family: "Lato", sans-serif;
+    
 }
 
 .row2{
     margin: 12px;
     display: flex;
+    align-items: center;
 }
 .row2 img{
     width: 25px;
@@ -101,13 +105,12 @@ footer{
 .row2 img{
     width: 25px;
     height: 25px;
+    margin-left: -10px;
 }
-.row2 label{
+.row2 a{
     margin-top: 10px;
-    margin-left: 20px;
     color: black;
-    font-family: "Lato", sans-serif;
-    font: 16px;
+    font: 18px;
 
 }
 /*Cambio por resoluciones*/
