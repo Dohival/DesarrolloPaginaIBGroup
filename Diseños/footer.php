@@ -7,7 +7,7 @@
                             <a href="index.php">¿Quiénes somos?</a>
                         </div>
                         <div class="row">
-                            <a href="index.php">Fundadores</a>
+                            <a href="fundadores.php">Fundadores</a>
                         </div>
                     </div>
                     <div class="colu2">
