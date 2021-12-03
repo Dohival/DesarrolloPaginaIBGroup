@@ -28,47 +28,48 @@ footer{
 
 }
 
-.colum1{
+.colu1{
     max-width: 400px;
 
 }
-.colum1 h1{
+.colu1 h1{
     font-size: 24px;
     font-family: "Lato", sans-serif;
 }
-.colum1 p{
+.colu1 p{
     font-size: 18px;
     color: black;
     margin-top: 20px;
+    font-family: "Lato", sans-serif;
 
 }
 
-.colum2{
+.colu2{
     max-height: 400px;
     margin-right: 100px;
 }
-.colum2 h1{
+.colu2 h1{
     font-size: 24px;
     font-family: "Lato", sans-serif;
 }
-.colum2 p{
+.colu2 p{
     font-size: 18px;
     color: black;
     margin-top: 20px;
     font-family: "Lato", sans-serif;
 
 }
-.colum3{
+.colu3{
     max-height: 400px;
     margin-right: 40px;
     
 
 }
-.colum3 h1{
+.colu3 h1{
     font-size: 24px;
     font-family: "Lato", sans-serif;
 }
-.colum3 p{
+.colu3 p{
     font-size: 18px;
     color: black;
     margin-top: 20px;
@@ -100,11 +101,6 @@ footer{
 .row2 img{
     width: 25px;
     height: 25px;
-
-}
-.row2 img{
-    width: 25px;
-    height: 25px;
     margin-left: -10px;
 }
 .row2 a{
@@ -118,7 +114,7 @@ footer{
     .container-body{
         flex-wrap: wrap;
     }
-    .colum2,.colum3{
+    .colu2,.colu3{
         margin-top: 40px;
     }
 }
