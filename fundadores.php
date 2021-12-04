@@ -28,7 +28,7 @@
                 <div class="datos-fundador">
                     <p>El bicho pelao</p>
                     <h3>CEO</h3>
-                    <a href="#"><img src="img/linkedin logo.png" alt="logo linkedin"></a>
+                    <a href="#"><img src="img/linkedin logo.webp" alt="logo linkedin"></a>
                 </div>
             </div>
             <div class="fundador">
@@ -38,7 +38,7 @@
                 <div class="datos-fundador">
                     <p>John Cena cabezón</p>
                     <h3>COO - Product Manager</h3>
-                    <a href="#"><img src="img/linkedin logo.png" alt="logo linkedin"></a>
+                    <a href="#"><img src="img/linkedin logo.webp" alt="logo linkedin"></a>
                 </div>
             </div>
             <div class="fundador">
@@ -48,7 +48,7 @@
                 <div class="datos-fundador">
                     <p>El bicho pelao</p>
                     <h3>CPO - UX/UI Designer</h3>
-                    <a href="#"><img src="img/linkedin logo.png" alt="logo linkedin"></a>
+                    <a href="#"><img src="img/linkedin logo.webp" alt="logo linkedin"></a>
                 </div>
             </div>
 

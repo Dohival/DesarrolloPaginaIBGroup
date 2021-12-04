@@ -27,7 +27,7 @@
             <div class="titulo"><h1>Agregar titulo</h1></div>
             <div class="necesidad">
                 <div class="img">
-                    <img src="./img/A.png">
+                    <img src="./img/A.webp">
                 </div>
                 <div class="cuerpo">
                     <div class="titulo-cuerpo"><h1>Agregar Titulo</h1></div>
@@ -43,7 +43,7 @@
             </div>
             <div class="necesidad">
                 <div class="img">
-                    <img src="./img/B.png">
+                    <img src="./img/B.webp">
                 </div>
                 <div class="cuerpo">
                     <div class="titulo-cuerpo"><h1>Agregar Titulo</h1></div>
@@ -59,7 +59,7 @@
             </div>
             <div class="necesidad">
                 <div class="img">
-                    <img src="./img/C.png">
+                    <img src="./img/C.webp">
                 </div>
                 <div class="cuerpo">
                     <div class="titulo-cuerpo"><h1>Agregar Titulo</h1></div>
