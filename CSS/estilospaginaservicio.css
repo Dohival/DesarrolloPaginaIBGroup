@@ -1,0 +1,52 @@
+.container-paginaindividual{
+
+    background-color: white;
+    display: flex;
+    
+    padding: 0px 0px 64px;
+}
+.container-descripción{
+    margin: 0px 28px;
+
+    height: auto;
+    
+}
+
+.container-descripción h1{
+    
+    margin: 36px 0px;
+    font-size: 28px;
+
+}
+.container-descripción p{
+    
+    margin: 15px 0px;
+    font-size: 18px;
+
+}
+ul.normal li{
+    list-style:disc;
+    font-size: 18px;
+    margin: 2px 17px;
+}
+.img-paginaindividual{
+
+ display: flex;
+align-items: center;
+}
+
+.img-paginaindividual img{
+    margin-right: 64px;
+    padding: 14px;
+}
+
+@media (max-width: 992px){
+.container-paginaindividual{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+
+}
+.container-paginaindividual img{
+margin-right: 0px;
+}
+}
