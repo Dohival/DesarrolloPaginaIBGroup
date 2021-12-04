@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="./CSS/estilosmenu.css">
         <link rel="stylesheet" href="./CSS/estilospanelinicio.css">
         <link rel="stylesheet" href="./CSS/estilosformulario.css">
-        <link rel="stylesheet" href="./CSS/estilostablaprecio.css">
+        <link rel="stylesheet" href="./CSS/estilostablaprecios.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-widht, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
