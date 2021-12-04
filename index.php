@@ -19,10 +19,6 @@
         ?>
 
     </head>
-    
-        <?php
-        include './Diseños/header.php';
-        ?>
     <body>
         <?php
         include './Diseños/panelinicio.php';
