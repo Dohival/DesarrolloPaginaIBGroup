@@ -1,6 +1,6 @@
   <header>
   <nav class="navbar">
-    <a href="index.php"><img src="img/logoibcorp.png"></a>
+    <a href="index.php"><img src="img/logoibcorp.webp"></a>
       <ul class="nav-menu">
         <li class="nav-item">
           <a href="" class="nav-link">Planes</a>
