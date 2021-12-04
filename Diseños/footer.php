@@ -4,10 +4,10 @@
                     <div class="colu1">
                         <h1>Sobre nosotros</h1>
                         <div class="row">
-                            <a href="index.php">¿Quiénes somos?</a>
+                            <a href="sobrenosotros.php">¿Quiénes somos?</a>
                         </div>
                         <div class="row">
-                            <a href="index.php">Fundadores</a>
+                            <a href="fundadores.php">Fundadores</a>
                         </div>
                     </div>
                     <div class="colu2">

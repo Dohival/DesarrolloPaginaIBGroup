@@ -3,10 +3,10 @@
     <a href="index.php"><img src="img/logoibcorp.png"></a>
       <ul class="nav-menu">
         <li class="nav-item">
-          <a href="index.php" class="nav-link">Planes</a>
+          <a href="" class="nav-link">Planes</a>
         </li>
         <li class="nav-item1">
-          <a href="index.php" class="nav-link">Sobre Nosotros</a>
+          <a href="sobrenosotros.php" class="nav-link">Sobre Nosotros</a>
         </li>
         <li class="nav-item">
           <a href="#formulario" class="nav-link">Contacto</a>
